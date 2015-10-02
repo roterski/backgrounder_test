@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/piotrkaczmarek/carrierwave_backgrounder.git
+  revision: 51b40035a91c1fff21aa7972d59c26f5f68f7c0e
+  specs:
+    carrierwave_backgrounder (0.4.2)
+      carrierwave (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,14 +47,14 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    byebug (6.0.2)
+    byebug (2.7.0)
+      columnize (~> 0.3)
+      debugger-linecache (~> 1.2)
     carrierwave (0.10.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
-    carrierwave_backgrounder (0.4.2)
-      carrierwave (~> 0.5)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -55,7 +62,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
+    columnize (0.9.0)
     debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
     delayed_job (4.1.1)
       activesupport (>= 3.0, < 5.0)
     delayed_job_active_record (4.1.0)
@@ -156,7 +165,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   carrierwave
-  carrierwave_backgrounder
+  carrierwave_backgrounder!
   coffee-rails (~> 4.1.0)
   delayed_job_active_record
   haml
