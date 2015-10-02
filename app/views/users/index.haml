@@ -1,0 +1,8 @@
+%h1 Users
+- @users.each do |user|
+  %h4 
+    = user.id
+  = form_for(user) do |form|
+    = form.file_field :avatar
+    = submit_tag('Upload')
+  = image_tag(user.avatar.thumb)
