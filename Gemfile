@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml'
 gem 'carrierwave'
+gem 'carrierwave_backgrounder'
+gem 'delayed_job_active_record'
 gem 'rmagick'
 
 # Use ActiveModel has_secure_password

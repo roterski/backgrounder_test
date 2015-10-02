@@ -46,6 +46,8 @@ GEM
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
+    carrierwave_backgrounder (0.4.2)
+      carrierwave (~> 0.5)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -54,6 +56,11 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     debug_inspector (0.0.2)
+    delayed_job (4.1.1)
+      activesupport (>= 3.0, < 5.0)
+    delayed_job_active_record (4.1.0)
+      activerecord (>= 3.0, < 5)
+      delayed_job (>= 3.0, < 5)
     erubis (2.7.0)
     execjs (2.6.0)
     globalid (0.3.6)
@@ -149,7 +156,9 @@ PLATFORMS
 DEPENDENCIES
   byebug
   carrierwave
+  carrierwave_backgrounder
   coffee-rails (~> 4.1.0)
+  delayed_job_active_record
   haml
   jbuilder (~> 2.0)
   jquery-rails
