@@ -26,6 +26,7 @@ gem 'haml'
 gem 'carrierwave'
 gem 'carrierwave_backgrounder', github: 'piotrkaczmarek/carrierwave_backgrounder'
 gem 'delayed_job_active_record'
+gem 'sidekiq'
 gem 'rmagick'
 
 # Use ActiveModel has_secure_password
